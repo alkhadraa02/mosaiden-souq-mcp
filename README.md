@@ -54,6 +54,8 @@ Step-by-step: https://mosaiden.com/ai-connect
 | `search_restaurants` / `get_restaurant_menu` | Restaurants and official menus with SAR prices | — |
 | `search_hotels` | Hotels in Saudi Arabia, UAE, Egypt, Bahrain, Kuwait, Oman, Jordan | — |
 | `list_assistants` / `list_categories` | The marketplace's specialised assistants and ad categories | — |
+| `search_assistants` | Find an assistant for a need: the marketplace's own plus live-checked MCP servers from other providers | — |
+| `checkout_link` | Turn chosen store products into one cart link; the user reviews, adds with a tap and pays on mosaiden.com | — |
 | `my_account` | Your plan, listings, stores and recent orders | `souq.read` |
 | `publish_listing` / `add_store_product` | Publish an ad or a store product — preview first, publish only after you approve (subscribers) | `souq.publish` |
 
