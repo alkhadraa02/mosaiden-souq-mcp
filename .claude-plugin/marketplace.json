@@ -1,0 +1,5 @@
+{
+  "name": "mosaiden-souq",
+  "owner": { "name": "TechnologyKSA", "url": "https://mosaiden.com" },
+  "plugins": [{ "name": "mosaiden-souq", "source": "./", "description": "Saudi marketplace connector (MCP)" }]
+}

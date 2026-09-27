@@ -1,0 +1,6 @@
+{
+  "mcpServers": {
+    "souq": { "type": "http", "url": "https://mosaiden.com/mcp" },
+    "souq-me": { "type": "http", "url": "https://mosaiden.com/mcp/me" }
+  }
+}

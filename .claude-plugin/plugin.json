@@ -1,0 +1,8 @@
+{
+  "name": "mosaiden-souq",
+  "version": "1.0.0",
+  "description": "سوق المساعدين — Saudi marketplace: stores (Jarir, eXtra), classifieds, restaurant menus, hotels. Arabic-first.",
+  "author": { "name": "TechnologyKSA", "url": "https://mosaiden.com" },
+  "homepage": "https://mosaiden.com/ai-connect",
+  "license": "MIT"
+}

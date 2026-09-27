@@ -1,0 +1,8 @@
+{
+  "name": "mosaiden-souq",
+  "version": "1.0.0",
+  "description": "سوق المساعدين — Saudi marketplace: stores, classifieds, restaurant menus, hotels. Arabic-first.",
+  "mcpServers": {
+    "souq": { "url": "https://mosaiden.com/mcp" }
+  }
+}

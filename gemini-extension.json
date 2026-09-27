@@ -1,0 +1,10 @@
+{
+  "name": "mosaiden-souq",
+  "version": "1.0.0",
+  "description": "سوق المساعدين — Saudi marketplace: stores (Jarir, eXtra), classifieds, restaurant menus, hotels. Arabic-first.",
+  "contextFileName": "GEMINI.md",
+  "mcpServers": {
+    "souq": { "httpUrl": "https://mosaiden.com/mcp" },
+    "souq-me": { "httpUrl": "https://mosaiden.com/mcp/me" }
+  }
+}

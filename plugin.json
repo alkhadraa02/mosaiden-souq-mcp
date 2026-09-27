@@ -1,0 +1,6 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "mosaiden-souq",
+  "version": "1.0.0",
+  "description": "سوق المساعدين — Saudi marketplace: stores (Jarir, eXtra), classifieds, restaurant menus, hotels. Arabic-first."
+}
