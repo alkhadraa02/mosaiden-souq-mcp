@@ -1,8 +1,11 @@
 {
   "name": "mosaiden-souq",
-  "version": "1.0.0",
-  "description": "سوق المساعدين — Saudi marketplace: stores (Jarir, eXtra), classifieds, restaurant menus, hotels. Arabic-first.",
-  "author": { "name": "TechnologyKSA", "url": "https://mosaiden.com" },
+  "version": "1.1.0",
+  "description": "سوق المساعدين — Saudi marketplace: search stores (Jarir, eXtra), classifieds, restaurant menus, hotels and flights; with your account: publish ads, build your store, import AliExpress products (dropshipping) and edit prices, photos, sizes and colours. Arabic-first.",
+  "author": {
+    "name": "TechnologyKSA",
+    "url": "https://mosaiden.com"
+  },
   "homepage": "https://mosaiden.com/ai-connect",
   "license": "MIT"
 }

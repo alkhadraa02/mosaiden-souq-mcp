@@ -1,5 +1,14 @@
 {
   "name": "mosaiden-souq",
-  "owner": { "name": "TechnologyKSA", "url": "https://mosaiden.com" },
-  "plugins": [{ "name": "mosaiden-souq", "source": "./", "description": "Saudi marketplace connector (MCP)" }]
+  "owner": {
+    "name": "TechnologyKSA",
+    "url": "https://mosaiden.com"
+  },
+  "plugins": [
+    {
+      "name": "mosaiden-souq",
+      "source": "./",
+      "description": "Saudi marketplace connector (MCP): search, publish, stores, AliExpress dropshipping"
+    }
+  ]
 }

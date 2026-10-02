@@ -1,8 +1,13 @@
 {
   "name": "mosaiden-souq",
-  "version": "1.0.0",
-  "description": "سوق المساعدين — Saudi marketplace: stores, classifieds, restaurant menus, hotels. Arabic-first.",
+  "version": "1.1.0",
+  "description": "سوق المساعدين — Saudi marketplace: search stores (Jarir, eXtra), classifieds, restaurant menus, hotels and flights; with your account: publish ads, build your store, import AliExpress products (dropshipping) and edit prices, photos, sizes and colours. Arabic-first.",
   "mcpServers": {
-    "souq": { "url": "https://mosaiden.com/mcp" }
+    "souq": {
+      "url": "https://mosaiden.com/mcp"
+    },
+    "souq-me": {
+      "url": "https://mosaiden.com/mcp/me"
+    }
   }
 }
