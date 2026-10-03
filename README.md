@@ -1,5 +1,3 @@
-<img src="assets/logo.png" width="96" alt="سوق المساعدين logo">
-
 # سوق المساعدين — Mosaiden Souq MCP
 
 اسأل ذكاءك الاصطناعي المفضّل بالعربية، وهو يبحث في **سوق المساعدين** ([mosaiden.com](https://mosaiden.com)):
