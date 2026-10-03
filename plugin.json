@@ -1,6 +1,64 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "mosaiden-souq",
-  "version": "1.1.0",
-  "description": "سوق المساعدين — Saudi marketplace: search stores (Jarir, eXtra), classifieds, restaurant menus, hotels and flights; with your account: publish ads, build your store, import AliExpress products (dropshipping) and edit prices, photos, sizes and colours. Arabic-first."
+  "version": "1.2.0",
+  "description": "Search Saudi stores (Jarir, eXtra), classified ads, restaurant menus, hotels and flights; compare prices; publish ads and manage your mosaiden.com store, incl. AliExpress dropshipping. سوق المساعدين — ابحث في المتاجر والإعلانات وقوائم المطاعم والفنادق والطيران وقارن الأسعار، وانشر إعلانك وأدر متجرك.",
+  "author": {
+    "name": "TechnologyKSA",
+    "url": "https://mosaiden.com"
+  },
+  "homepage": "https://mosaiden.com/ai-connect",
+  "repository": "https://github.com/alkhadraa02/mosaiden-souq-mcp",
+  "license": "MIT",
+  "keywords": [
+    "saudi",
+    "ksa",
+    "marketplace",
+    "shopping",
+    "price comparison",
+    "restaurants",
+    "hotels",
+    "flights",
+    "classifieds",
+    "dropshipping",
+    "arabic",
+    "mcp",
+    "سوق",
+    "السعودية",
+    "تسوق",
+    "مقارنة أسعار",
+    "مطاعم",
+    "فنادق",
+    "طيران",
+    "إعلانات",
+    "حراج",
+    "متجر"
+  ],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "سوق المساعدين",
+        "shortDescription": "Saudi marketplace · السوق السعودي",
+        "longDescription": "ابحث في متاجر سوق المساعدين (جرير وإكسترا وغيرها) والإعلانات المبوّبة وقوائم المطاعم بالأسعار وأكثر من 20 ألف فندق والطيران، وقارن الأسعار واحصل على رابط الطلب على mosaiden.com. وبعد ربط حسابك: انشر إعلاناتك وأنشئ متجرك وأضف منتجاتك أو استوردها من علي إكسبريس — بمعاينةٍ وموافقتك قبل أي نشر. Saudi marketplace connector: stores, classifieds, restaurant menus, hotels and flights; publish ads and manage your store after linking your account.",
+        "developerName": "TechnologyKSA",
+        "category": "Shopping",
+        "capabilities": [
+          "Interactive",
+          "Read",
+          "Write"
+        ],
+        "websiteURL": "https://mosaiden.com",
+        "privacyPolicyURL": "https://mosaiden.com/ai-connect/privacy",
+        "termsOfServiceURL": "https://mosaiden.com/terms",
+        "defaultPrompt": [
+          "قارن أسعار آيفون 17 برو بين جرير وإكسترا",
+          "فنادق 5 نجوم في مكة قريبة من الحرم",
+          "وش في قائمة كودو من البرجر وكم أسعارها؟"
+        ],
+        "brandColor": "#1A7FC1",
+        "composerIcon": "./assets/icon.png",
+        "logo": "./assets/logo.png"
+      }
+    }
+  }
 }

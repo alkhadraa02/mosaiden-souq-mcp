@@ -1,5 +1,6 @@
 {
   "name": "mosaiden-souq",
+  "description": "Official marketplace for the Mosaiden Souq (سوق المساعدين) Saudi marketplace plugin",
   "owner": {
     "name": "TechnologyKSA",
     "url": "https://mosaiden.com"
@@ -8,7 +9,8 @@
     {
       "name": "mosaiden-souq",
       "source": "./",
-      "description": "Saudi marketplace connector (MCP): search, publish, stores, AliExpress dropshipping"
+      "version": "1.2.0",
+      "description": "Saudi marketplace connector (MCP): search, compare prices, restaurants, hotels, flights, publish ads, manage your store"
     }
   ]
 }

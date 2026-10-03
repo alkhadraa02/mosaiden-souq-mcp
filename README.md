@@ -1,3 +1,5 @@
+<img src="assets/logo.png" width="96" alt="سوق المساعدين logo">
+
 # سوق المساعدين — Mosaiden Souq MCP
 
 اسأل ذكاءك الاصطناعي المفضّل بالعربية، وهو يبحث في **سوق المساعدين** ([mosaiden.com](https://mosaiden.com)):
@@ -68,6 +70,16 @@ codex plugin marketplace add alkhadraa02/mosaiden-souq-mcp
 ```
 
 **Cursor / VS Code** — one-click links at https://mosaiden.com/ai-connect
+
+## Plugin contents
+
+| File | Used by |
+|---|---|
+| `plugin.json` + `mcp.json` (Agent Plugins, logo under `extensions.com.openai`) | ChatGPT, Codex |
+| `.claude-plugin/plugin.json` + `.mcp.json` | Claude (Cowork, Claude Code, Claude directory) |
+| `skills/mosaiden-souq/SKILL.md` | Usage guidance (which tool when, confirmation rules) |
+| `assets/logo.png`, `assets/icon.png` | Plugin logo (512×512) |
+| `gemini-extension.json` + `GEMINI.md`, `qwen-extension.json`, `kimi.plugin.json` | Gemini CLI, Qwen Code, Kimi Code |
 
 ## Tools
 
